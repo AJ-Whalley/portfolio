@@ -1,0 +1,167 @@
+/* General Rules */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #232322;
+  line-height: 1.7em;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Cabin Sketch", cursive;
+  color: #CFCFCF;
+}
+
+h2 {
+  font-family: "Neuton", serif;
+  color: #E7A62D;
+}
+
+p {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.18em;
+  color: #CFCFCF;
+  margin: 0;
+  padding: 1em 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: .5em 0;
+}
+
+h1 {
+  font-size: 2.875em;
+}
+
+.arrow {
+  color: #E7A62D;
+}
+
+.link {
+  text-decoration: none;
+  color: #E7A62D;
+}
+
+/* Header */
+
+#header {
+  width: 100%;
+  min-height: 667px;
+}
+
+#header h1 {
+  font-size: 4em;
+  position: relative;
+}
+
+#header h2 {
+  font-size: 2em;
+  position: relative;
+  display: inline-block;
+}
+
+#header .arrow {
+  position: relative;
+  top: 30px;
+  }
+
+/* About Section */
+
+#about .photo-wrap, .text-wrap {
+  padding: 0 2.18em 1em 2.18em;
+}
+
+#about p {
+  text-align: left;
+  line-height: 1.6em;
+}
+
+/* Skills Section */
+
+#skills ul {
+  padding-bottom: 2em;
+}
+
+#skills li {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.5em;
+  color: #CFCFCF;
+  padding: 1em 0;
+}
+
+#skills h2 {
+  font-size: 1.18em;
+  padding-top: 0;
+}
+
+.cards {
+  padding: 0 2.18em 1em 2.18em;
+}
+
+.cards p{
+  text-align: left;
+}
+
+
+/* Contact Section */
+
+#contact {
+  padding: 0 2.18em 1em 2.18em;
+}
+
+#contact p {
+  text-align: left;
+}
+
+form {
+  font-family: "Neuton", serif;
+  font-size: 2em;
+  color: #E7A62D;
+  text-align: left;
+}
+form input {
+  display: block;
+}
+
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #E7A62D;
+  padding-top: 2em;
+  margin:1em;
+}
+
+input[type=text-area] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #E7A62D;
+  padding-top: 2em;
+  margin: 1em;
+}
+
+input[type=text]:checked, input[type=text-area]:checked {
+  color: aliceblue;
+}
+
+
+.form-btn {
+  font-family: "Neuton", serif;
+  font-size: .75em;
+  color: #E7A62D;
+  background-color: #232322;
+  border: #E7A62D solid .1em;
+  border-radius: 5%;
+  padding: .25em;
+  line-height: 1em;
+}
+
