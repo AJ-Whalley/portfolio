@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>AJ Whalley</title>
+  <title>A Whalley Portfolio</title>
   <link rel="stylesheet" href="/css/style.css">
   <!-- Font Links -->
   <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet">
@@ -15,23 +15,33 @@
   
 <!-- Header Section -->
   <section id="header">
-
-    <h1>A<span class="arrow">&darr;</span>WHALLEY</h1>
-    <h2>jr. fullstack developer</h2>
-    <div class="menu">
-      <ul>
-        <div class="menu-btn">
-          <li>&lt; </li>
-          <li>&frasl;</li>
-          <li>&gt;</li>
-        </div>
-          <li class="header-menu-content">
-            <a href="#about">.about</a>
-            <a href="#skills">.skills</a>
-            <a href="#contact">.contact</a>            
-          </li>
-      </ul>
+    <div class="main-title">
+      <h1>A<span class="arrow">&darr;</span>WHALLEY</h1>
+      <h2>jr. fullstack developer</h2>
     </div>
+
+      <div class="menu-before">
+        <ul>
+          <li class="rotate-90">&lt;</li>
+          <li class="rotate-90">&gt;</li>
+        </ul>
+      </div>
+
+      <div class="menu-after">  
+        <ul>
+          <li class="rotate-90">&lt;</li>
+          <li><a href="#contact">.contact</a></li>
+          <li class="menu-break">=</li>
+          <li><a href="#skills">.skills</a></li>
+          <li class="menu-break">=</li>
+          <li><a href="#about">.about</a></li>
+          <li class="rotate-90">&gt;</li>
+        </ul>
+      </div>
+
+      <div class="test">
+        <h1>Hello World</h1>
+      </div>
 
   </section>
 
@@ -101,8 +111,10 @@
       Email:
       <input type="text" name="email"><br/>
       Message:
-      <input type="text-area" name="message"><br/>
-      <input class="form-btn" type="submit" value="Send Email">
+      <textarea type="text-area" name="message" wrap="hard"></textarea>
+      <div class="submit-center">
+        <input class="form-btn" type="submit" value="Send Email">
+      </div>
     </form>
     
   </section>
