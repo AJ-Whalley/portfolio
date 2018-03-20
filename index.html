@@ -10,9 +10,11 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Overpass:300" rel="stylesheet">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+ 
 <!-- Header Section -->
   <section id="header">
     <div class="main-title">
@@ -29,8 +31,6 @@
         </ul>
       </div>
 
-      
-
       <div id="C" class="menu-after">
         <ul>
           <li class="rotate-90">&lt;</li>
@@ -39,7 +39,6 @@
           <li><a href="#skills">.skills</a></li>
           <li class="menu-break">=</li>
           <li><a href="#about">.about</a></li>
-          
         </ul>
       </div>
             
@@ -47,17 +46,18 @@
 
   <!-- About Section -->
   <section id="about">
-
-    <h1>.about</h1>
+      <h1>.about</h1>
+  <div class="wrapper"> 
     <div class="photo-wrap">
-      <img src="/img/profile-pic.jpg" alt="A photo of Aj Whalley">
+      <img src="/img/profile-pic-enhanced.jpg" alt="A photo of Aj Whalley">
     </div>
-    <div class="text-wrap">
+
+    <div class="text-wrapper">
       <p>I'm Aj Whalley, a jr. Full Stack Developer.</p>
 
       <p>Since the age of 6 I’ve been building & destroying anything I could get my hands on with an unwavering admiration & intrigue of how how things go together.</p>
 
-      <p>Throughout my career and continual education I have developed a broad range of skills from electrical construction, computer programming and world class customer service.</p>
+      <p>Throughout my career and continual education I have developed a broad range of skills from electrical construction, computer programming and world class customer service. For more detials view my resume <a href="/resume.pdf" target="_blank" class="link">here.</a></p>
 
       <p> I love working hard from start to finish, looking back on my work with pride. Especially in a team environment where everyone is fighting for the same outcome. 
       </p> 
@@ -65,45 +65,74 @@
       <p> I believe there is always a way, I will always prevail, and there is always another level. All with a healthy attitude around commercial reality and what it takes to be in business.</p>
 
       <p>I'm currently available for work - if you would like to build something together,<a href="#contact" class="link"> get in touch.</a></p>
-    </div>  
+    </div>
+    </div>     
   </section>
 
   <!-- Skills Section -->
+
   <section id="skills">
+    <div class="left-column">
     <h1>.skills</h1>
       <ul>
         <li>Javascript</li>
+        <li id="icon" class="fab fa-js-square"></li>
+      </ul>  
+
+      <ul>
+        <li id="icon" class="far fa-gem"></li>
         <li>Ruby</li>
+      </ul> 
+      
+      <ul>
         <li>HTML5</li>
-        <li>CSS3</li>
-        <li>GitHub &</li>
+        <li id="icon" class="fab fa-html5"></li>
       </ul>
+
+      <ul>
+        <li id="icon" class="fab fa-css3"></li>
+        <li>CSS3</li>
+      </ul>
+
+      <ul>  
+        <li>GitHub &</li>
+        <li id="icon" class="fab fa-git"></li>
+        <li id="icon" class="fab fa-github"></li>
+      </ul>
+    </div> 
+
+    <div class="right-column">
     <h1>.my latest work</h1>
     <h2>Take a look at some of my latest projects</h2>
 
     <div class="cards">
       <div class="awhalley-project">
-        <img src="#" alt="Photo of AjWhalley.com homes page">
-        <p>"<span class="a-whalley">A<span class="arrow">&darr; </span>WHALLEY</span>” is this portfolio page built using purly HTML & CSS. To see the process to completion, check out the detailed README via <a href="https://github.com/CodeDependence" class="link" target="_blank">GitHub.</a></p>
+        <img src="/img/awhalley-portfolio.png" alt="Photo of AjWhalley.com homes page">
+        <p>"<span class="a-whalley">A<span class="arrow">&darr; </span>WHALLEY</span>” is this portfolio page built using purly HTML & CSS. To see the process to completion, check out the detailed README via<a href="https://github.com/CodeDependence" class="link" target="_blank">GitHub.</a></p>
       </div>
 
       <div class="c-promtz-project">
-        <img src="#" alt="Photo of C-Promptz running in the terminal">
+        <img src="/img/terminal-enhanced.png" alt="Photo of C-Promptz running in the terminal">
         <p>"C-Promptz” is a step by step custom terminal prompt building app built with purly Ruby & run via the terminal. To see more check out detailed README via<a href="https://github.com/CodeDependence" class="link"
          target="_blank"> GitHub.</a></p>
       </div>
     </div>
-
+  </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
     <h1>.contact</h1>
     <p>You can reach out to me on any of the following channels or send me an email below.</p>
-    
-    <p>Connect on Linkedin</p>
-    <p>Connect on Github</p>
-      
+
+    <ul>
+        <li id="icon" class="fab fa-linkedin"></li>
+        <li>Connect on<a href="https://www.linkedin.com/in/andrew-whalley-b3703315b/" class="link" target="_blank">Linkedin</a></li>
+      </ul>
+      <ul>
+        <li id="icon" class="fab fa-github"></li>
+        <li>Connect on<a href="https://github.com/CodeDependence" class="link" target="_blank">Github</a></li>        
+      </ul>
 
     <form action="#" method="#">
        Name: 
@@ -121,37 +150,16 @@
 
   <!-- Footer Nav -->
 
-  <footer>
+  <footer id="footer">
     <div class="footer-menu"> 
-
 <!-- <li class="footer-logo">Logo</li> -->
-      <input id="E" type="checkbox">
-
-      <div id="F" class="footer-menu-before">
+      <div class="footer-menu-before">
         <ul>
-          <li class="footer-rotate-90">&lt;</li>
-          <li class="footer-rotate-90">&gt;</li>
-        </ul>
-      </div>
-      
-      <div id="G" class="footer-menu-after">
-        <ul>
-          <li class="footer-rotate-90">&lt;</li>
-          <li><a href="#contact">.contact</a></li>
-          <li class="footer-menu-break">=</li>
-          <li><a href="#skills">.skills</a></li>
-          <li class="footer-menu-break">=</li>
-          <li><a href="#about">.about</a></li>
-          <li class="footer-rotate-90">&gt;</li>
+          <li class="footer-rotate-90"><a href="#header">&lt;</a></li>
+          <li class="footer-rotate-90"><a href="#header">&gt;</a></li>
         </ul>
       </div>
     </div> 
   </footer>
-
-
-
-
-
-
 </body>
 </html>

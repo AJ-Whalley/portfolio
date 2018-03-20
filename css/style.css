@@ -5,6 +5,8 @@
 }
 
 body {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
   background: #232322;
   line-height: 1.7em;
   text-align: center;
@@ -55,8 +57,9 @@ h1 {
 /* Header */
 
 #header {
+  grid-column: 2/4;
   width: 100%;
-  min-height: 667px;
+  height: 100vh;
   position: relative;
 }
 #header .main-title {
@@ -66,7 +69,6 @@ h1 {
   font-size: 4em;
 }
 
-
 #header h2 {
   font-size: 2em;
 }
@@ -74,7 +76,7 @@ h1 {
 #header .arrow {
   position: relative;
   top: 30px;
-  }
+}
 
 /* Styling and animating menu */
 
@@ -122,7 +124,8 @@ h1 {
 
 .menu-after ul a {
   text-decoration: none; 
-  color: #E7A62D;
+  font-family: "Cabin Sketch", cursive;
+  color: #CFCFCF;
   font-size: 1.75em;
 }
 
@@ -165,17 +168,26 @@ h1 {
 }
 
 /* About Section */
+#about {
+  grid-column: 2/4;
+}
 
 #about .photo-wrap, .text-wrap {
   padding: 0 2.18em 1em 2.18em;
 }
 
+#about img {
+  border-radius: 5px;
+}
+
 #about p {
-  text-align: left;
   line-height: 1.6em;
 }
 
 /* Skills Section */
+#skills {
+  grid-column: 2/4;
+}
 
 #skills ul {
   padding-bottom: 2em;
@@ -185,12 +197,25 @@ h1 {
   font-family: "Overpass", sans-serif;
   font-size: 1.5em;
   color: #CFCFCF;
-  padding: 1em 0;
+  padding: .5em 0;
+  display: inline-block;
 }
 
 #skills h2 {
   font-size: 1.18em;
   padding-top: 0;
+}
+
+#skills .cards img {
+  border: solid #CFCFCF 1px;
+  min-height: 165px;
+}
+
+#icon {
+  color: #E7A62D;
+  width: 35px;
+  height: 35px;
+  text-align: center;
 }
 
 .cards {
@@ -201,15 +226,33 @@ h1 {
   text-align: left;
 }
 
+.awhalley-project, .c-promtz-project {
+  padding-top: 2.5em;
+}
+
 /* Contact Section */
 
 #contact {
+  grid-column: 2/4;
   padding: 0 2.18em 1em 2.18em;
   margin-bottom: 40px;
 }
 
 #contact p {
   text-align: left;
+}
+
+#contact ul {
+  text-align: left;
+  margin-top: 1em;
+}
+
+#contact li {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.18em;
+  color: #CFCFCF;
+  padding: 1em 0;
+  display: inline-block;
 }
 
 /* Styling Form */
@@ -219,8 +262,9 @@ form {
   font-size: 2em;
   color: #E7A62D;
   text-align: left;
-  padding-top: 1em;
+  padding-top: 1.5em;
 }
+
 form input {
   display: block;
 }
@@ -240,9 +284,9 @@ textarea {
   border: none;
   border-bottom: 1px solid #E7A62D;
   margin: 1em 0;
-
   width: 100%;
   height: 6em;
+  resize: none;
   font-size: .75em;
   color: #CFCFCF;
 }
@@ -250,7 +294,6 @@ textarea {
 input[type=text]:focus, textarea:focus {
 outline: none;
 }
-
 
 .form-btn {
   display: inline-block;
@@ -268,12 +311,15 @@ outline: none;
   text-align: center;
 }
 
-
 /* Footer Section */
+#footer {
+  grid-column: 2/4;
+}
 
 .footer-menu {
+  background: #111111;
   height: 70px;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 100%;
 }
@@ -297,72 +343,55 @@ outline: none;
   line-height: 1em;
 }
 
-.footer-menu-after {
-  box-sizing: border-box;
-  width: 100%;
-  background-color: #111111;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  text-align: right;
-  padding: 10px 10px 15px 0px;
-  opacity: 0;
+.footer-menu-before ul a {
+  text-decoration: none;
 }
 
-.footer-menu-after .footer-rotate-90 {
-  transform: rotate(90deg);
-  display: inline-block;
-  font-size: 1.75em;
-}
-
-.footer-menu-after ul {
-  list-style-type: none;
+.footer-menu-before ul a:visited {
   color: #E7A62D;
-  
 }
 
-.footer-menu-after ul a {
-  text-decoration: none; 
-  color: #E7A62D;
-  font-size: 1.75em;
-}
+/* @media screen and (min-width: 50em){
 
-.footer-menu-break {
-  font-size: 1.85em;
-}
-
-#G {
-  display: none;
-}
-
-#E {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 33px;
-  height: 33px;
-  margin: 0 10px 10px 0;
-  opacity: 0;
-  z-index: 2;
-}
-
-#E:checked ~ #F li:first-child {
-  opacity: 0;
-}
-
-#E:checked ~ #G {
-  animation: load 1s forwards;
-  display: block;
-}
-
-@keyframes load{
-  0%{
-    transform: translateY(40px)
+  #skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
   }
-  100%{
-    opacity: 1;
-    transform: translateY(0px)
+
+  .left-column {
+    grid-column: 1/3;
   }
+
+  .right-column {
+    grid-column: 3/5;
+  }
+
+  #skills li {
+    font-size: 2.5em;
+    padding: 1em 0;
+  }
+
+  #icon {
+    width: 50px;
+    height: 50px;
+  }
+
+/* About Section */
+
+/* #about .wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1em;
 }
 
 
+#about .photo-wrap {
+  grid-column: 1/3;
+}
+
+#about .text-wrapper {
+  grid-column: 3/5;
+}
+
+} */ */
