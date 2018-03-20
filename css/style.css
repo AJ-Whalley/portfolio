@@ -172,7 +172,7 @@ h1 {
   grid-column: 2/4;
 }
 
-#about .photo-wrap, .text-wrap {
+#about .wrapper {
   padding: 0 2.18em 1em 2.18em;
 }
 
@@ -352,12 +352,19 @@ outline: none;
   color: #E7A62D;
 }
 
-/* @media screen and (min-width: 50em){
+@media screen and (min-width: 50em){
+
+  #header .main-title {
+    font-size: 2em;
+    width: 100vw;
+    padding-top: 300px;
+  }
 
   #skills {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 1em;
+    padding-top: 1em;
   }
 
   .left-column {
@@ -378,21 +385,34 @@ outline: none;
     height: 50px;
   }
 
-/* About Section */
+  #about .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+  }
 
-/* #about .wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 1em;
+  #about .photo-wrap {
+    grid-column: 1/3;
+  }
+  #about .photo-wrap img {
+    padding-top: 8px;
+  }
+
+  #about .text-wrapper {
+    grid-column: 3/5;
+  }
+
+  #about .text-wrapper p {
+    padding: 0 0 1.4em 0;
+  }
+
+  #about .last-sentence {
+    grid-column: 1/5;
+    border-bottom: #CFCFCF 2px dashed;
+    padding: 0 0 2em 0;
+    outline-width: 2em;
+  }
+
+
+
 }
-
-
-#about .photo-wrap {
-  grid-column: 1/3;
-}
-
-#about .text-wrapper {
-  grid-column: 3/5;
-}
-
-} */ 
