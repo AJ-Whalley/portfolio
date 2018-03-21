@@ -196,6 +196,7 @@ h1 {
 
 #skills ul {
   padding-bottom: 2em;
+  padding-left: 0;
 }
 
 #skills li {
@@ -357,6 +358,7 @@ outline: none;
   color: #E7A62D;
 }
 
+
 @media screen and (min-width: 50em){
 
   #header .main-title {
@@ -410,7 +412,7 @@ outline: none;
 
   #skills li {
     font-size: 2.5em;
-    padding: 1em 0;
+    padding: .75em 0;
   }
 
   #icon {

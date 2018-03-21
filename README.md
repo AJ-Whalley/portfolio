@@ -1,5 +1,5 @@
 # <a id="top"></a> My Portfolio Website Project
-## www.ajwhalley.com or http://awhalley-portfolio.netlify.com/
+## www.ajwhalley.com  or  http://awhalley-portfolio.netlify.com/
 
 Below is the strategy and the creation of my portfolio website. The outcome for the project was to create my online presence for future employees and clients. I wanted my portfolio to be simple yet complete. To display my attitude and character. 
 
@@ -10,10 +10,10 @@ The project was coded with only CSS and HTML. Through many challenges and findin
 # Contents
 - **[Inspiration Phase](#InspirationPhase)**
 - **[Style Guide and Wireframes](#Wireframes)**
-- **[Challenges](#Challenges)**
+- **[The Development Process](#devprocess)**
 - **[Coding](#Coding)**
 - **[Optimisation](#Optimisation)**
-- **[Final Product](#Final)**
+- **[What's To COme](#tocome)**
 
 
 # <a id="InspirationPhase"></a>Inspiration Phase
@@ -27,6 +27,8 @@ Before I got started I set up a Trello Board to use throughout my portfolio proj
 The Trello Board can be found at this [link.](https://trello.com/b/25odDeYl/portfolio-website)
 
 
+#SCREEN SHOT
+
 2. Inspiration 
 
 The second was inspiration. I spent time going through Pinterest and collecting photos that I found inspiring. Whether they be because of color, layout or positioning of objects within. 
@@ -35,6 +37,7 @@ To have a look at my collection you can click [here.](https://www.pinterest.com.
      
 From there I too some of the photos and included them withing my Figma Board to use for the design phase. That way I could see the colors and be inspired while deciding on colour palettes and layout. 
 
+#SCREEN SHOT
 
 [Back to Top](#top)
 
@@ -50,6 +53,7 @@ I selected 3 fonts. One for the main headings of each section that has a quirky 
 
 With the San Serif font I also increased the line hight to spread it out a little further as it made it even easier to read which is very important for the user. 
 
+#SCREEN SHOT
 
 ## Colour Palette Choice 
 
@@ -67,6 +71,7 @@ White is color at its most complete and pure, the color of perfection. The color
 
 Blue is the color of trust and peace. It can suggest loyalty and integrity as well as conservatism and frigidity. 
 
+#SCREEN SHOT
 
 ## Design & Layout 
 
@@ -78,17 +83,22 @@ From the drawings I then create the mock up layout and display in Figma and kept
 
 I really wanted the site to be easily navigated because if an employer visits the sight and can't instantaneously know where to look than it's not effective. 
 
-## Design & Layout 
-
-
-
-
-
 Again the full figma project can be viewed at the following [link.](https://www.figma.com/file/JEsIiT0Z3DiQoEyEMmz1BIhO/Portfolio-Design)
+
+
+#SCREEN SHOT
+
 [Back to Top](#top)
 
 
-# <a id="Challenges"></a>Challenges
+# <a id="devprocess"></a>The Development Process
+## What went well 
+
+I think my Figma designing went really well. I found colors and a style that I liked and although it took me about 3 days to put it all together I enjoyed the final outcome and what I learnt along the way. 
+
+When it comes to coding I learnt a lot and I think that is what went really well. I was able to learn how CSS grid and all the elements interact with each other when applying style. I now have a good grasp of how to position items on a website and confident in my ability to problem solves when something isn't right. 
+
+## Challenges 
      
 There were many challenges through building my portfolio site. I had to learn how the elements interact with padding, margin and within grids etc. 
 
@@ -101,7 +111,7 @@ The other bigger challenge was getting the menu to pop up without using JS and w
 In the future I will introduct JS so that the menu will automatically close when an option is slected. 
 
 
-
+#SCREEN SHOT
 
 [Back to Top](#top)
 
@@ -112,9 +122,13 @@ I didn't start coding until I had completely finished my mock up designs in Figm
 
 The Figma design gave me so much structure to reference off of. 
 
-After the Figma design was done I started with the HTML, breaking my pages into header footer and 3 sections. From there I centered all of my content so 
+After the Figma design was done I started with the HTML, breaking my pages into header footer and 3 sections. From there I centered all of my content and moved onto the CSS. 
 
+I had to come back to the HTML again and again but to start with I just got everything on the page within the major sections that I knew would exist. I then came back later and added a few divs and moved some content around etc.
 
+I worked from the top down with a mobile first design. I fisnished everything besides the menus as they gave me the most trouble and then came back to them at the end. 
+
+After finising the mobile version I expanded and to desktop and add a media query to alter the positioning of elements for a better desktop experience. 
 
 
 [Back to Top](#top)
@@ -126,12 +140,17 @@ The other main point is the users experience. There were many times where I want
 
 [Back to Top](#top)
 
+# <a id="tocome"></a>What's to come 
 
+From here I still have a few things I would like to add and change around. But given time restraints I was not able to get them done prior to the deadline. 
 
-# <a id="Final"></a>Final Product
-
-
-        
-
+1. Is that I will host this on my own domain www.ajwhalley.com 
+2. I will add a favicon and probably a logo in my bottom footer 
+3. Play with the positioning on desktop view 
+4. Add a suddle glow to the home menu button to draw attention
+5. Change the menu button to use JS instead of CSS 
+6. Re-structure my HTML and CSS with grid to cut back styling 
+7. Add robots.text file 
+8. Change menu display for desktop view 
 
 [Back to Top](#top)
