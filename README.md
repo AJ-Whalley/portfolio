@@ -12,7 +12,6 @@ The project was coded with only CSS and HTML. Through many challenges and findin
 - **[Style Guide and Wireframes](#Wireframes)**
 - **[Challenges](#Challenges)**
 - **[Coding](#Coding)**
-- **[Tools](#Tools)**
 - **[Optimisation](#Optimisation)**
 - **[Final Product](#Final)**
 
@@ -91,29 +90,38 @@ Again the full figma project can be viewed at the following [link.](https://www.
 
 # <a id="Challenges"></a>Challenges
      
+There were many challenges through building my portfolio site. I had to learn how the elements interact with padding, margin and within grids etc. 
+
+The biggest challenge I had was aligning the menu within the header and making it open with the page area selections. 
+
+The challenge was that some of the characters were eceeding their div because they were rotated 90 degrees. I learnt that when you rotate a character, it doesn't rotate the character on it's own. It rotates the block. When the characters were in a block it would rotate that block and through everything out of wack. I then had to change them to inline blocks which worked. 
+
+The other bigger challenge was getting the menu to pop up without using JS and was usable for mobile. I didn't want to use the sudo element Hover because it wouldn't work on mobile so I used a checkbox input, changed the indext to be positioned infront of the menu and set the opacity to 0. From there I was able to trigger the animation the box is checked. 
+
+In the future I will introduct JS so that the menu will automatically close when an option is slected. 
+
+
+
 
 [Back to Top](#top)
 
 
 # <a id="Coding"></a>Coding
 
+I didn't start coding until I had completely finished my mock up designs in Figma. Looking back I found this really helpful. I think coding it from scratch without Figma would have been a nightmare. 
 
-[Back to Top](#top)
+The Figma design gave me so much structure to reference off of. 
+
+After the Figma design was done I started with the HTML, breaking my pages into header footer and 3 sections. From there I centered all of my content so 
 
 
-# <a id="Tools"></a>Tools
-+ Youtube - Codepen - Google 
 
-+ [Sitemap Generator](https://www.xml-sitemaps.com)     
-My sitemap was generated using [XML Sitemaps](xml-sitemaps.com). This allowed me to easily generate sitemap files and it also instructed me to bind my sitemap to my Google Webmaster account which allowed me to identify ownership of my domain www.glenndimaliwat.com.       
-   
 
 [Back to Top](#top)
 
 # <a id="Optimisation"></a>Optimisation
 
-+ The 2 main things I optimized for the portfolio was the few photos and the user experience. The photos I edited via an online photo editor and saved them as a smaller file size that didn't diminish their quality. As a result I was able to shave off sever 100kbs of the files which enhances the speed of the site. 
-
+The 2 main things I optimized for the portfolio was the few photos and the user experience. The photos I edited via an online photo editor and saved them as a smaller file size that didn't diminish their quality. As a result I was able to shave off sever 100kbs of the files which enhances the speed of the site. 
 The other main point is the users experience. There were many times where I wanted to add animations or extra navigation etc but decided against it because it wasn't what the user needed. The sight was built to display me but it designed for the user. 
 
 [Back to Top](#top)
