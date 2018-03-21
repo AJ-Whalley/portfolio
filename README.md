@@ -1,3 +1,10 @@
+<style> 
+
+
+</style>
+
+<div id="into">
+
 # <a id="top"></a> My Portfolio Website Project
 ## www.ajwhalley.com  or  http://awhalley-portfolio.netlify.com/
 
@@ -6,6 +13,9 @@ Below is the strategy and the creation of my portfolio website. The outcome for 
 I selected a simple yet profession 3 colour scheme with 3 fronts and only the one photo of myself for the about section. I wanted it to be sleek and only have what a client or employer would need to see to hire me. 
 
 The project was coded with only CSS and HTML. Through many challenges and finding solutions to those, I learnt a lot of new techniques and practices for future projects. Overall it was a challenging, fun and insightful project which I plan to expand on as a I develop more skills and build more projects.  
+</div>
+
+<div id="contents">
 
 # Contents
 - **[Inspiration Phase](#InspirationPhase)**
@@ -15,6 +25,7 @@ The project was coded with only CSS and HTML. Through many challenges and findin
 - **[Optimisation](#Optimisation)**
 - **[What's To COme](#tocome)**
 
+</div>
 
 # <a id="InspirationPhase"></a>Inspiration Phase
 
@@ -27,7 +38,7 @@ Before I got started I set up a Trello Board to use throughout my portfolio proj
 The Trello Board can be found at this [link.](https://trello.com/b/25odDeYl/portfolio-website)
 
 
-#SCREEN SHOT
+![Photo of trello Board](/assets/trello-screenshot.png)
 
 2. Inspiration 
 
@@ -37,7 +48,7 @@ To have a look at my collection you can click [here.](https://www.pinterest.com.
      
 From there I too some of the photos and included them withing my Figma Board to use for the design phase. That way I could see the colors and be inspired while deciding on colour palettes and layout. 
 
-#SCREEN SHOT
+![Photo of pinterest board](/assets/pinterest-screenshot.png)
 
 [Back to Top](#top)
 
@@ -46,6 +57,8 @@ For all the pre coding design, colour choice, typography, layout etc I used Figm
 
 You can view my Figma designs [here.](https://www.figma.com/file/JEsIiT0Z3DiQoEyEMmz1BIhO/Portfolio-Design)
 
+![Photo of entire Figma](/assets/entire-figma-screenshot.png)
+
 ## Typography
 My typography was inspired by finding a way to display my character mixed with style and most importantly user readability  and their experience. 
 
@@ -53,7 +66,8 @@ I selected 3 fonts. One for the main headings of each section that has a quirky 
 
 With the San Serif font I also increased the line hight to spread it out a little further as it made it even easier to read which is very important for the user. 
 
-#SCREEN SHOT
+![Photo of typography](/assets/typography-screenshot.png)
+![Photo of typography2](/assets/typography-screenshot2.png)
 
 ## Colour Palette Choice 
 
@@ -71,8 +85,9 @@ White is color at its most complete and pure, the color of perfection. The color
 
 Blue is the color of trust and peace. It can suggest loyalty and integrity as well as conservatism and frigidity. 
 
-#SCREEN SHOT
-
+![Photo of color palette choices](/assets/color-palette-screenshot2.png)
+![Photo of color palette choices](/assets/color-palette-screenshot3.png)
+![Photo of color palette choices](/assets/color-palette-screenshot.png)
 ## Design & Layout 
 
 From the very beginning I wanted the portfolio to have an open layout that is simple, profession and easy to navigate. I wanted it to have a good spread and be easily read and contain everything an employer would need. 
@@ -86,7 +101,7 @@ I really wanted the site to be easily navigated because if an employer visits th
 Again the full figma project can be viewed at the following [link.](https://www.figma.com/file/JEsIiT0Z3DiQoEyEMmz1BIhO/Portfolio-Design)
 
 
-#SCREEN SHOT
+![Photo of Design sketches](/assets/design-screenshot.png)
 
 [Back to Top](#top)
 
@@ -111,7 +126,7 @@ The other bigger challenge was getting the menu to pop up without using JS and w
 In the future I will introduct JS so that the menu will automatically close when an option is slected. 
 
 
-#SCREEN SHOT
+![Photo of Design sketches](/assets/menu-screenshot.png)
 
 [Back to Top](#top)
 
