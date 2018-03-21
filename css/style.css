@@ -172,7 +172,11 @@ h1 {
   grid-column: 2/4;
 }
 
+<<<<<<< HEAD
 #about .wrapper, .last-sentence {
+=======
+#about .wrapper {
+>>>>>>> bb6d0629f8572052464a683c252c691b287ebb5b
   padding: 0 2.18em 1em 2.18em;
 }
 

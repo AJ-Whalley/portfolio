@@ -1,0 +1,129 @@
+# <a id="top"></a> My Portfolio Website Project
+## www.ajwhalley.com or http://awhalley-portfolio.netlify.com/
+
+Below is the strategy and the creation of my portfolio website. The outcome for the project was to create my online presence for future employees and clients. I wanted my portfolio to be simple yet complete. To display my attitude and character. 
+
+I selected a simple yet profession 3 colour scheme with 3 fronts and only the one photo of myself for the about section. I wanted it to be sleek and only have what a client or employer would need to see to hire me. 
+
+The project was coded with only CSS and HTML. Through many challenges and finding solutions to those, I learnt a lot of new techniques and practices for future projects. Overall it was a challenging, fun and insightful project which I plan to expand on as a I develop more skills and build more projects.  
+
+# Contents
+- **[Inspiration Phase](#InspirationPhase)**
+- **[Style Guide and Wireframes](#Wireframes)**
+- **[Challenges](#Challenges)**
+- **[Coding](#Coding)**
+- **[Tools](#Tools)**
+- **[Optimisation](#Optimisation)**
+- **[Final Product](#Final)**
+
+
+# <a id="InspirationPhase"></a>Inspiration Phase
+
+There are 2 major categories that I took care of before anything else. 
+
+1. Progress tracking 
+
+Before I got started I set up a Trello Board to use throughout my portfolio project. It helped to manage and break down the benchmarks and what has and still needs to be done. It gave me the certainty to know what I had done and how much I had left. Within it includes the brief that I received and the marking benchmarks so I knew what I was actually being marked on.            
+
+The Trello Board can be found at this [link.](https://trello.com/b/25odDeYl/portfolio-website)
+
+
+2. Inspiration 
+
+The second was inspiration. I spent time going through Pinterest and collecting photos that I found inspiring. Whether they be because of color, layout or positioning of objects within. 
+
+To have a look at my collection you can click [here.](https://www.pinterest.com.au/ajwhalley45/design-inspiration/)
+     
+From there I too some of the photos and included them withing my Figma Board to use for the design phase. That way I could see the colors and be inspired while deciding on colour palettes and layout. 
+
+
+[Back to Top](#top)
+
+# <a id="Wireframes"></a>Style Guide and Wireframes
+For all the pre coding design, colour choice, typography, layout etc I used Figma. A program that I could map everything out first before coding. This was beyond helpful when it came to coding as I already knew where everything was going to be and had an idea of how it would work. More on that later. 
+
+You can view my Figma designs [here.](https://www.figma.com/file/JEsIiT0Z3DiQoEyEMmz1BIhO/Portfolio-Design)
+
+## Typography
+My typography was inspired by finding a way to display my character mixed with style and most importantly user readability  and their experience. 
+
+I selected 3 fonts. One for the main headings of each section that has a quirky stylish touch to it and then used code/programing like characters to add style. It's quite distinctive and only used for major titles as any more than that would be too much. The 2nd font was for the sub headings and is a Serif font that is stylish, easily read and paired really well with my main titles. The 3rd font is a San Serif font and used for all paragraphs and lengthy text. It's much easy for the user to ready. 
+
+With the San Serif font I also increased the line hight to spread it out a little further as it made it even easier to read which is very important for the user. 
+
+
+## Colour Palette Choice 
+
+For color I had a wide range to select from. I found and used the chrome extension Palette Creator which creates a 8,16,24,32 or custom colour palette from any photo you want. So from the inspiration photos I added to Figma from Pinterest I created a handful of different color schemes I liked. From there I tested a few out and landed on a 3 color scheme. I really dark blue, a gold like color and then a light grey. 
+
+I then tested the colors contrast on one another via [Contrast Checker](https://contrastchecker.com/) to make sure they got the AAA rating. Again, it's crucial that the users can easily read the text and it's something they don't even think about or realise. It's a seamless experience. 
+
+The colours go really well together and through the use of the right fonts I was able to create a profession, sleek and fun experience. 
+
+The color psychology of each colour also reinforced the message I wanted to send: 
+
+Gold is the color of success, achievement and triumph. Associated with abundance and prosperity,luxury and quality, prestige and sophistication, value and elegance, the color psychology of gold implies affluence, material wealth and extravagance.
+
+White is color at its most complete and pure, the color of perfection. The color meaning of white is purity, innocence, wholeness and completion.
+
+Blue is the color of trust and peace. It can suggest loyalty and integrity as well as conservatism and frigidity. 
+
+
+## Design & Layout 
+
+From the very beginning I wanted the portfolio to have an open layout that is simple, profession and easy to navigate. I wanted it to have a good spread and be easily read and contain everything an employer would need. 
+
+I search the web and found lists of different portfolio sights which I used as inspiration. From there I still didn't really know what I was going to do but I decided to sketch out what was in my mind and go from there. The rough sketches can be found in my Figma Portfolio Page linked about. 
+
+From the drawings I then create the mock up layout and display in Figma and kept adding bits and pieces making iterations and changes constantly until I had a layout which I liked. From there, I made many more changes. 
+
+I really wanted the site to be easily navigated because if an employer visits the sight and can't instantaneously know where to look than it's not effective. 
+
+## Design & Layout 
+
+
+
+
+
+Again the full figma project can be viewed at the following [link.](https://www.figma.com/file/JEsIiT0Z3DiQoEyEMmz1BIhO/Portfolio-Design)
+[Back to Top](#top)
+
+
+# <a id="Challenges"></a>Challenges
+     
+
+[Back to Top](#top)
+
+
+# <a id="Coding"></a>Coding
+
+
+[Back to Top](#top)
+
+
+# <a id="Tools"></a>Tools
++ Youtube - Codepen - Google 
+
++ [Sitemap Generator](https://www.xml-sitemaps.com)     
+My sitemap was generated using [XML Sitemaps](xml-sitemaps.com). This allowed me to easily generate sitemap files and it also instructed me to bind my sitemap to my Google Webmaster account which allowed me to identify ownership of my domain www.glenndimaliwat.com.       
+   
+
+[Back to Top](#top)
+
+# <a id="Optimisation"></a>Optimisation
+
++ The 2 main things I optimized for the portfolio was the few photos and the user experience. The photos I edited via an online photo editor and saved them as a smaller file size that didn't diminish their quality. As a result I was able to shave off sever 100kbs of the files which enhances the speed of the site. 
+
+The other main point is the users experience. There were many times where I wanted to add animations or extra navigation etc but decided against it because it wasn't what the user needed. The sight was built to display me but it designed for the user. 
+
+[Back to Top](#top)
+
+
+
+# <a id="Final"></a>Final Product
+
+
+        
+
+
+[Back to Top](#top)
