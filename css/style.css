@@ -398,15 +398,17 @@ outline: none;
   #skills {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
-    grid-column-gap: 3em;
+    grid-column-gap: 4em;
     padding-top: 3em;
   }
 
   .left-column {
+    padding-top: 0;
     grid-column: 2/3;
   }
 
   .right-column {
+    padding-top: 0;
     grid-column: 3/4;
   }
 
@@ -420,4 +422,33 @@ outline: none;
     height: 50px;
   }
 
+  #contact {
+    padding-top: 2em;
+  }
+  #contact .form-wrapper {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr; 
+  }
+
+  #contact form {
+    grid-column: 2/4;
+  }
+
+  #contact p {
+    text-align: center;
+  }
+  
+  #contact ul {
+    display: inline;
+    text-align: center;
+    margin-top: 2.5em;
+  }
+  
+  /* #contact li {
+    font-family: "Overpass", sans-serif;
+    font-size: 1.18em;
+    color: #CFCFCF;
+    padding: 1em 0;
+    display: inline-block;
+  }  */
 }

@@ -109,13 +109,13 @@ Again the full figma project can be viewed at the following [link.](https://www.
 # <a id="devprocess"></a>The Development Process
 ## What went well 
 
-I think my Figma designing went really well. I found colors and a style that I liked and although it took me about 3 days to put it all together I enjoyed the final outcome and what I learnt along the way. 
+I think my Figma designing went really well. I found colors and a style that I liked and although it took me about 3 days to put it all together I enjoyed the final outcome and what I learnt along the way. The Figma design really set me up for success when it was time to code. 
 
-When it comes to coding I learnt a lot and I think that is what went really well. I was able to learn how CSS grid and all the elements interact with each other when applying style. I now have a good grasp of how to position items on a website and confident in my ability to problem solves when something isn't right. 
+When it comes to coding I learnt a lot and I think that is what went really well. I was able to learn how CSS grid and all the elements interact with each other when applying style. I now have a good grasp of how to position items on a website and am confident in my ability to problem solve when something isn't working right. 
 
 ## Challenges 
      
-There were many challenges through building my portfolio site. I had to learn how the elements interact with padding, margin and within grids etc. 
+There were many challenges through building my portfolio site. I had to learn how the elements interact with padding, margin, css grid, styling icons, the site responsive for all devices etc. 
 
 The biggest challenge I had was aligning the menu within the header and making it open with the page area selections. 
 
