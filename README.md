@@ -1,21 +1,13 @@
-<style> 
-
-
-</style>
-
-<div id="into">
 
 # <a id="top"></a> My Portfolio Website Project
-## www.ajwhalley.com  or  http://awhalley-portfolio.netlify.com/
+## http://awhalley-portfolio.netlify.com/ in the future it will www.ajwhalley.com
 
 Below is the strategy and the creation of my portfolio website. The outcome for the project was to create my online presence for future employees and clients. I wanted my portfolio to be simple yet complete. To display my attitude and character. 
 
 I selected a simple yet profession 3 colour scheme with 3 fronts and only the one photo of myself for the about section. I wanted it to be sleek and only have what a client or employer would need to see to hire me. 
 
 The project was coded with only CSS and HTML. Through many challenges and finding solutions to those, I learnt a lot of new techniques and practices for future projects. Overall it was a challenging, fun and insightful project which I plan to expand on as a I develop more skills and build more projects.  
-</div>
 
-<div id="contents">
 
 # Contents
 - **[Inspiration Phase](#InspirationPhase)**
@@ -25,7 +17,6 @@ The project was coded with only CSS and HTML. Through many challenges and findin
 - **[Optimisation](#Optimisation)**
 - **[What's To COme](#tocome)**
 
-</div>
 
 # <a id="InspirationPhase"></a>Inspiration Phase
 
